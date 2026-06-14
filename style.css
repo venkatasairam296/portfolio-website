@@ -1,0 +1,113 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header{
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 22px;
+}
+
+.head-name{
+  margin: 0;
+}
+
+nav ul{
+  display: flex;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li{
+  padding: 5px 9px;
+  list-style: none;
+}
+
+nav ul li a{
+  text-decoration: none;
+}
+
+#hero{
+  border: 2px solid red;
+  height: calc(100dvh - 80px);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero-content, .about-content{
+  max-width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 30px;
+}
+
+#hero h1{
+  border: 2px solid red;
+}
+
+#hero .role{
+  border: 2px solid red;
+}
+
+#hero .short-desc{
+  border: 2px solid red;
+  max-width: 100%;
+}
+
+#hero a{
+  border: 2px solid red;
+  padding: 6px 12px;
+  align-self: flex-start;
+}
+
+.hero-img, .about-img{
+  border: 2px solid red;
+  margin-right: 7.5%;
+}
+
+#about{
+  border: 2px solid red;
+  min-height: 100vh;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.about-content{
+  align-self: baseline;
+  margin-top: 60px;
+}
+
+#skills{
+  border: 2px solid red;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 2rem;
+}
+
+.tech, .tools{
+  border: 2px solid red;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.list-cont{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.skill-list{
+  border: 2px solid red;
+  list-style: none;
+}
