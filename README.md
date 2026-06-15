@@ -26,7 +26,7 @@ Build a clean personal portfolio page to practice:
 - LinkedIn: https://linkedin.com/in/singaluri-venkata-sai-ram
 
 ## Project Status
-In progress. This is Version 1 of my portfolio.
+In progress. This project is being built step by step, and I have now completed my Day 2 work.
 
 ### What I completed so far
 - Created page structure with semantic sections
@@ -35,12 +35,28 @@ In progress. This is Version 1 of my portfolio.
 - Added my basic technical skills and tools
 - Added contact links for collaboration
 
+### Day 2 work
+- Improved header and navigation styling
+- Adjusted hero section alignment and spacing
+- Refined the about section layout
+- Styled the skills section more clearly
+- Structured the projects section as a placeholder for future work
+- Cleaned up the contact section and footer
+- Added mobile responsive layout support for smaller screens
+- Focused mainly on positioning, spacing, and alignment in CSS
+
+### Day 2 learning focus
+- CSS layout practice
+- Basic responsive design
+- Better section structure
+- Cleaner visual presentation
+
 ### Next improvements I plan
-- Improve responsive design for mobile screens
 - Replace placeholder images with real assets
 - Add real project cards with links
 - Improve typography, spacing, and color theme
 - Add hover/focus states and accessibility improvements
+- Make the design more polished as I continue learning
 
 ## How to run locally
 1. Clone the repository.
@@ -48,4 +64,4 @@ In progress. This is Version 1 of my portfolio.
 3. Open `index.html` in a browser.
 
 ## Learning Note
-This project is part of my web development journey. Feedback is welcome.
+This project is part of my web development journey. I am sharing progress regularly and improving the website in small steps. Feedback is welcome.
