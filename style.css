@@ -2,7 +2,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
+
 header{
   height: 80px;
   display: flex;
@@ -13,26 +15,37 @@ header{
 
 .head-name{
   margin: 0;
+  font-weight: bold;
+  font-size: 1.8rem;
 }
 
 nav ul{
   display: flex;
+  flex-wrap: wrap;
   gap: 30px;
   margin: 0;
   padding: 0;
 }
 
 nav ul li{
-  padding: 5px 9px;
+  padding: 7px 12px;
   list-style: none;
+  background: cyan;
+  outline: none;
+  border-radius: 5px;
 }
 
 nav ul li a{
   text-decoration: none;
+  color: white;
+}
+
+main{
+  background: darkgray;
+  color: white;
 }
 
 #hero{
-  border: 2px solid red;
   height: calc(100dvh - 80px);
   display: flex;
   align-items: center;
@@ -47,32 +60,35 @@ nav ul li a{
   padding: 30px;
 }
 
-#hero h1{
-  border: 2px solid red;
+.hero-content h1{
+  font-weight: bold;
+  font-size: 3.5rem;
 }
 
-#hero .role{
-  border: 2px solid red;
+.role{
+  font-size: large;
 }
 
 #hero .short-desc{
-  border: 2px solid red;
   max-width: 100%;
 }
 
-#hero a{
-  border: 2px solid red;
-  padding: 6px 12px;
+#hero a, .about-content a{
+  margin-top: 20px;
+  text-decoration: none;
+  padding: 8px 15px;
+  background: cyan;
+  color: white;
+  outline: none;
+  border-radius: 6px;
   align-self: flex-start;
 }
 
 .hero-img, .about-img{
-  border: 2px solid red;
   margin-right: 7.5%;
 }
 
 #about{
-  border: 2px solid red;
   min-height: 100vh;
   height: auto;
   display: flex;
@@ -85,6 +101,11 @@ nav ul li a{
   margin-top: 60px;
 }
 
+.about-content h2, #skills h2{
+  font-weight: bold;
+  font-size: 2rem;
+}
+
 #skills{
   border: 2px solid red;
   min-height: 100vh;
@@ -95,10 +116,13 @@ nav ul li a{
 }
 
 .tech, .tools{
-  border: 2px solid red;
   display: flex;
   flex-direction: column;
   gap: 10px;
+}
+
+.tech h3, .tools h3{
+  font-size: 1.3rem;
 }
 
 .list-cont{
@@ -108,6 +132,98 @@ nav ul li a{
 }
 
 .skill-list{
-  border: 2px solid red;
   list-style: none;
+  background: cyan;
+  outline: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+
+#projects{
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+#projects h2{
+  margin-bottom: 10px;
+  font-size: 2rem;
+}
+
+#contact{
+  min-height: 50vh;
+  padding: 30px 50px;
+}
+
+#contact h2{
+  margin-bottom: 20px;
+}
+
+.social-add{
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+footer{
+  text-align: center;
+  padding: 10px 0px;
+}
+
+footer p{
+  margin-bottom: 5px;
+}
+
+@media (max-width: 550px) {
+  header{
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: space-around;
+    padding-right: 0;
+  }
+
+
+
+  nav ul{
+    gap: 0;
+  }
+
+  #hero, #about{
+    flex-direction: column;
+    height: auto;
+  }
+
+  #about{
+    min-height: unset;
+    height: auto;
+  }
+
+  .hero-content, .about-content{
+    max-width: 100%;
+  }
+
+  .about-content{
+    margin-top: 0;
+  }
+
+  .hero-img, .about-img{
+    margin-right: 0;
+  }
+
+  .hero-img img, .about-img img{
+    max-width: 100%;
+  }
+
+  #skills{
+    border: 2px solid red;
+    min-height: unset;
+    height: auto;
+  }
+
+  .list-cont{
+    grid-template-columns: 1fr;
+  }
 }
