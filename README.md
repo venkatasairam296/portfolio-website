@@ -1,20 +1,34 @@
 # Personal Portfolio Website
 
-This is my first portfolio project built using pure HTML and CSS.
+This is my first complete portfolio website built with HTML and CSS.
 
-## Live Project Goal
-Build a clean personal portfolio page to practice:
+## Project Overview
+The goal of this project was to create a personal portfolio page that presents my profile, skills, contact details, and early project work in one clean and responsive layout.
+
+## What I built
+- A sticky header with navigation links
+- A hero section with my name, role, short introduction, and call-to-action button
+- An about section with personal details and a LinkedIn link
+- A skills section for technical skills and tools
+- A projects section to showcase the portfolio website itself
+- A contact section with email, GitHub, and LinkedIn links
+- A footer with a simple closing message
+
+## What I focused on in CSS
+- Positioning and spacing
+- Flexbox and grid layout
+- Color contrast and visual hierarchy
+- Hover effects and smooth transitions
+- Sticky navigation
+- Responsive design for smaller screens
+
+## Key Features
 - Semantic HTML structure
-- CSS layout with Flexbox and Grid
-- Section-based page navigation
-- Writing professional self-introduction content
-
-## Current Sections
-- Hero section
-- About Me
-- Skills
-- Projects (placeholder)
-- Contact (Email, GitHub, LinkedIn)
+- Internal page navigation
+- Responsive layout using media queries
+- Reusable card-style sections
+- Clean section-based design
+- GitHub and LinkedIn profile integration
 
 ## Tech Stack
 - HTML5
@@ -25,43 +39,17 @@ Build a clean personal portfolio page to practice:
 - GitHub: https://github.com/venkatasairam296
 - LinkedIn: https://linkedin.com/in/singaluri-venkata-sai-ram
 
-## Project Status
-In progress. This project is being built step by step, and I have now completed my Day 2 work.
-
-### What I completed so far
-- Created page structure with semantic sections
-- Added internal navigation using anchor links
-- Built section layouts for content and images
-- Added my basic technical skills and tools
-- Added contact links for collaboration
-
-### Day 2 work
-- Improved header and navigation styling
-- Adjusted hero section alignment and spacing
-- Refined the about section layout
-- Styled the skills section more clearly
-- Structured the projects section as a placeholder for future work
-- Cleaned up the contact section and footer
-- Added mobile responsive layout support for smaller screens
-- Focused mainly on positioning, spacing, and alignment in CSS
-
-### Day 2 learning focus
-- CSS layout practice
-- Basic responsive design
-- Better section structure
-- Cleaner visual presentation
-
-### Next improvements I plan
-- Replace placeholder images with real assets
-- Add real project cards with links
-- Improve typography, spacing, and color theme
-- Add hover/focus states and accessibility improvements
-- Make the design more polished as I continue learning
-
 ## How to run locally
 1. Clone the repository.
 2. Open the project folder in VS Code.
 3. Open `index.html` in a browser.
 
-## Learning Note
-This project is part of my web development journey. I am sharing progress regularly and improving the website in small steps. Feedback is welcome.
+## Learning Outcome
+This project helped me practice structuring a full webpage, improving layout with CSS, and making the design responsive. It also gave me confidence to build and publish my first web project.
+
+## Future Improvements
+- Add real project cards with live links
+- Improve typography and spacing further
+- Add more image assets
+- Add stronger accessibility support
+- Expand the portfolio as I build more projects
